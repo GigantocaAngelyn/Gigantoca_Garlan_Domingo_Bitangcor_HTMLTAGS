@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height: 100vh;
+    width: auto;
+    background-image: url("cafe.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    position: relative;
+    left: 10;
+    font-family: cursive,serif,fantasy;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    font-style: serif;
+}
+.nav-bar .title{
+    color:white;
+    font-size: 60px;
+    font-weight: 60px;
+    cursor: pointer;
+}
+span{
+    font-weight: 5px;
+    font-size: 10px;
+    color:rgb(148, 136, 25);
+}
+.nav-bar p{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 65px;
+    color:rgb(201, 130, 25);
+    font-size: 90px;
+    font-weight: 50px;
+    
+    font-style: italic;
+
+}
+span{
+    font-size: 30px;
+    position: relative;
+    bottom: 10px;
+    font-style: oblique;
+    color:rgb(235, 218, 162);
+}
+
+.menu li a{
+    list-style: none;
+    display: inline-block;
+    color:rgb(233, 233, 223);
+    position: relative;
+    right: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 255px;
+    font-style: oblique;
+    
+}
+.menu li a:hover{
+    color:yellow;
+    padding: 5px 10px;
+    border: 2px solid white;
+    margin-left: 100;
+}
+.home{
+    height: 50px;
+    padding: 70px;
+    font-family: 'Times New Roman', Times, serif;
+      
+}
+.title-1{
+    font-size: 20px;
+    color:rgb(15, 5, 5);
+    font-weight: 60px;
+    margin-left: 350px;
+    position: relative;
+    top: 255px;
+  
+
+}
+.home button{
+    height: 50px;
+    color: rgb(201, 130, 25);
+    background:black;
+    font-size: 20px;
+    padding: 5px 30px;
+    margin-bottom: 350px;
+    margin-top: 120px;
+    border: none;
+    font-style: italic;
+    border-radius: 0px;
+    transition: none;
+    cursor:auto;
+    margin-left:0px;
+}
+.home button:hover{
+    background: none;
+    margin-top: 0px;
+    border: 2px solid rgb(160, 58, 58) (218, 200, 204);
+
+}
